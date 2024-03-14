@@ -1,0 +1,279 @@
+<html>
+
+<head>
+    <title>Akash fabricators</title>
+    <link rel="website icon" type="png" href="Akash fabricators.png">
+    <style>
+        body {
+            background-image: url('Akash fabricators_transparent1.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+
+        }
+
+        .sticky {
+            position: -webkit-sticky;
+            /* position: sticky; */
+            top: 0;
+            padding: 5px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+            font-size: 50px;
+            border-radius: 25px;
+            
+
+        }
+
+        p {
+            font-size: 25px;
+            text-align: center;
+        }
+
+        .photos {
+            height: 600px;
+            width: 90%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 10px;
+            text-align: center;
+            height: 2500px;
+
+        }
+
+        .pic {
+            position: relative;
+            height: 400px;
+            border-radius: 10px;
+            transition: .5s;
+
+
+        }
+
+        .pic img {
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
+
+        .pic::before {
+            content: "AKASH FABRICATORS";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 3.7vh;
+            font-weight: bold;
+            width: 100%;
+            margin-top: -100px;
+            opacity: 0;
+            transition: .3s;
+            transition-delay: .2s;
+            z-index: 1;
+        }
+
+        .pic::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            border-radius: 10px;
+            height: 0;
+            background-color: rgba(0, 0, 0, 0.618);
+            transition: .4s;
+        }
+
+        .pic:hover::after {
+            height: 100%;
+        }
+
+        .pic:hover::before {
+            margin-top: 0;
+            opacity: 1;
+        }
+
+        .visit {
+            position: relative;
+            height: 400px;
+            border-radius: 10px;
+            transition: .5s;
+
+
+        }
+
+        .visit img {
+            width: 100%;
+            height: 100%;
+            border-radius: 15px;
+        }
+
+        .visit::before {
+            content: "VISITING CARD";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 3.7vh;
+            font-weight: bold;
+            width: 100%;
+            margin-top: -100px;
+            opacity: 0;
+            transition: .3s;
+            transition-delay: .2s;
+            z-index: 1;
+        }
+
+        .visit::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+            border-radius: 10px;
+            height: 0;
+            background-color: rgba(0, 0, 0, 0.618);
+            transition: .4s;
+        }
+
+        .visit:hover::after {
+            height: 100%;
+        }
+
+        .visit:hover::before {
+            margin-top: 0;
+            opacity: 1;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .gallery-heading {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h2 {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .foot {
+            height: 20px;
+            width: 100%;
+            background-color: black;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sticky">AKASH FABRICATORS</div>
+    <div>
+        <p>Akash Fabricators, a renowned welding shop, stands as a beacon of precision and expertise in metal
+            fabrication.
+            With a commitment to quality craftsmanship,
+            Akash Fabricators transforms raw materials into durable structures, ensuring strength and reliability in
+            every weld.
+            Their skilled artisans merge traditional techniques with cutting-edge technology, providing clients with
+            tailor-made
+            solutions for diverse projects. From intricate designs to robust industrial components, Akash Fabricators
+            delivers
+            excellence in welding services. Their reputation for integrity, efficiency, and attention to detail makes
+            them the
+            trusted choourice for those seeking top-tier fabrication in the ever-evolving world of metalwork.</p>
+
+        <h2>MY LOCATION</h2>
+        <p id="yo">
+        <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3426.804711670728!2d76.266739!3d30.808110400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3910097654b98f5f%3A0xfca3da5ae633182a!2sAkash%20fabricators!5e0!3m2!1sen!2sin!4v1710353082760!5m2!1sen!2sin"
+                width="1600" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
+        <div class="gallery-heading">
+            <h1>Our Gallery</h1>
+            <p>Welcome to beautiful gallery showcasing amazing images.</p>
+        </div>
+        <div class="photos">
+            <div class="visit">
+                <image src="Untitled (1).png"></image>
+            </div>
+            <div class="pic">
+                <image src="IMG-20240313-WA0030.jpg"></image>
+            </div>
+            <div class="pic">
+                <image src="IMG-20240313-WA0031.jpg"></image>
+            </div>
+            <div class="pic">
+                <image src="IMG-20240313-WA0032.jpg"></image>
+            </div>
+            <div class="pic">
+                <image src="IMG-20240313-WA0033.jpg"></image>
+            </div>
+            <div class="pic">
+                <image src="IMG-20240313-WA0034.jpg"></image>
+            </div>
+            <div class="pic">
+                <image src="IMG-20240313-WA0035.jpg"></image>
+            </div>
+            <div class="pic">
+                <image src="IMG-20240313-WA0037.jpg"></image>
+            </div>
+            <div class="pic">
+                <image src="IMG-20240313-WA0038.jpg"></image>
+            </div>
+            <div class="pic">
+                <image src="IMG-20240313-WA0039.jpg"></image>
+            </div>
+            <div class="pic">
+                <image src="IMG-20240313-WA0040.jpg"></image>
+            </div>
+            <div class="pic">
+                <image src="IMG-20240313-WA0041.jpg"></image>
+            </div>
+            <div class="pic">
+                <image src="IMG-20240313-WA0042.jpg"></image>
+            </div>
+            <div class="pic">
+                <image src="IMG-20240313-WA0043.jpg"></image>
+            </div>
+            <div class="pic">
+                <image src="IMG-20240313-WA0044.jpg"></image>
+            </div>
+            <div class="pic">
+                <image src="machine.jpg"></image>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer style="background-color: black; color: white; text-align: center; padding: 20px;">
+        <p>AKASH FABRICATORS &copy; All rights received 2024</p>
+        <p>CONTACT US: +91 95013 30258, 7717371775</p>
+        <p>Email: akashkooner96@gmail.com</p>
+    </footer>
+    
+
+</body>
+
+</html>
